@@ -82,11 +82,16 @@
   margin-right: auto;
   cursor: pointer;
   transition-duration: 200ms;
-  padding: 1.2rem;
+  padding: 1rem 0;
 }
 
 .sidebarContents button:hover {
   opacity: 0.7;
+}
+
+.sidebarContents h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 
 .loadingState {
@@ -100,6 +105,17 @@
   opacity: 0.2;
   font-size: 3rem;
   animation: spin 1s linear infinite;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 
 @keyframes spin {
